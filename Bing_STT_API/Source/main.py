@@ -10,8 +10,8 @@ class function_entry():
         self.__start__()
 
     def __start__(self):
-        instance = Record()
-        STT_API( instance.get_file_name() )
+        instance = Record.Record()
+        STT_API.STT_API( instance.get_file_name() )
 
 if __name__ == '__main__':
     instance = function_entry()
