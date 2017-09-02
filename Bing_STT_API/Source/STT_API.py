@@ -64,7 +64,7 @@ class STT_API():
         :return: None
         """
 
-        if cmd == "Eu até a india de nerd":
+        if cmd == "Ói tudo bem":
             webbrowser.open_new( self.url )
 
     def __intro__(self):
