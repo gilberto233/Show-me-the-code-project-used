@@ -6,8 +6,8 @@ The interaction between the program and server base on packets pack the specify 
 elementtree.
 
 Here are the procedure:
-* *Grant your access code with yout Microsoft account*.   `You need to add these information into packet's header.`
-* *Receive the accese code from server.*
+- *Grant your access code with yout Microsoft account*.   `You need to add these information into packet's header.`
+- *Receive the accese code from server.*
 - *Now you will pack your audio file info. Beware of:*
   - *Add the access code into the packet's header.*
   - *Audio file's binary info must be add to the packet's body.*
